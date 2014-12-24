@@ -1,8 +1,7 @@
 react-webstorage
 ===
 
-Use any implementation of W3C WebStorage API directly as a React/Flux
-style Store.
+Use any implementation of W3C WebStorage API directly as a React/Flux-style store.
 
 ````javascript
 var WebStorage = require('react-webstorage')
@@ -49,3 +48,6 @@ dispatcher.register(function (payload) {
 	}
 
 ````
+WebStorage Instance implements the WebStorage API, and in cases where the contents of WebStorage is modified (setItem, removeItem, clear) fires a `change`  event to registered listeners.
+
+WebStorage API details here: https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API
