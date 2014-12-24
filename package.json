@@ -24,5 +24,11 @@
   "bugs": {
     "url": "https://github.com/sterpe/react-webstorage/issues"
   },
-  "homepage": "https://github.com/sterpe/react-webstorage"
+  "homepage": "https://github.com/sterpe/react-webstorage",
+  "devDependencies": {
+    "flux": "^2.0.1",
+    "gulp": "^3.8.10",
+    "browserify-shim": "^3.8.1",
+    "browserify": "^7.0.3"
+  }
 }
