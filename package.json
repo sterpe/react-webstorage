@@ -1,11 +1,28 @@
 {
   "name": "react-webstorage",
-  "version": "0.0.0",
-  "description": "",
+  "version": "0.0.1",
+  "description": "Use webStorage or webStorage poly-fill as a React/Flux store.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Steven Terpe <srterpe@gmail.com>",
-  "license": "ISC"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sterpe/react-webstorage.git"
+  },
+  "keywords": [
+    "react",
+    "flux",
+    "storage",
+    "webStorage",
+    "localStorage",
+    "sessionStorage",
+    "poly-fill"
+  ],
+  "bugs": {
+    "url": "https://github.com/sterpe/react-webstorage/issues"
+  },
+  "homepage": "https://github.com/sterpe/react-webstorage"
 }
