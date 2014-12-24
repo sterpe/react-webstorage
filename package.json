@@ -4,7 +4,10 @@
   "description": "Use webStorage or webStorage poly-fill as a React/Flux store.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
+  },
+  "jest": {
+    "collectCoverage": true
   },
   "author": "Steven Terpe <srterpe@gmail.com>",
   "license": "MIT",
@@ -34,6 +37,7 @@
     "jest-cli": "^0.2.1",
     "rimraf": "^2.2.8",
     "mkdirp": "^0.5.0",
-    "vinyl-source-stream": "^1.0.0"
+    "vinyl-source-stream": "^1.0.0",
+    "localStorage": "^1.0.3"
   }
 }
